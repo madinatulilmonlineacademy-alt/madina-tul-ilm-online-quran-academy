@@ -1,0 +1,508 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f8f9f7;
+    color: #333;
+}
+
+
+/* Header */
+
+header {
+
+    min-height: 100vh;
+
+    background:
+    linear-gradient(
+    rgba(0,107,69,0.75),
+    rgba(0,0,0,0.55)
+    ),
+    url("images/quran-bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+
+}
+
+
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+}
+
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+
+/* Hero Section */
+
+.hero {
+    text-align: center;
+    padding: 140px 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.hero p {
+    font-size: 22px;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+
+button {
+    background: white;
+    color: #D4AF37;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background: #006B45;
+}
+
+
+/* Welcome Section */
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+
+section h2 {
+    color: #006B45;;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+/* Footer */
+
+footer {
+    background: #006B45;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.logo img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.logo h3 {
+    font-size: 26px;
+    margin: 0;
+    color: white;
+}
+
+.logo span {
+    font-size: 13px;
+    color: white;
+}
+.courses {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+
+.course-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+
+.course-card {
+    background: white;
+    width: 250px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+
+.course-card h3 {
+    color: #006B45;
+    margin-bottom: 15px;
+}
+
+
+.course-card p {
+    line-height: 1.6;
+}
+.admission {
+    padding: 70px 20px;
+    text-align: center;
+    background: #f1f8f7;
+}
+
+
+.admission h2 {
+    color: #006B45;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+
+.admission form {
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+
+.admission input,
+.admission select {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+
+.admission button {
+    background: #006B45;
+    color: white;
+    width: 100%;
+    margin-top: 15px;
+}
+.whatsapp {
+
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+
+    background: #25D366;
+    color: white;
+
+    padding: 15px 25px;
+
+    border-radius: 50px;
+
+    text-decoration: none;
+
+    font-size: 18px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+
+}
+
+
+.whatsapp:hover {
+
+    background: #128C7E;
+
+}
+.about {
+
+    padding: 70px 15%;
+    text-align: center;
+
+    background: white;
+
+}
+
+
+.about h2 {
+
+    color: #006B45;
+    font-size: 35px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.about p {
+
+    font-size: 18px;
+
+    line-height: 1.8;
+
+}
+.teachers {
+
+    padding: 70px 8%;
+    text-align: center;
+    background: #f8f9f7;
+
+}
+
+
+.teacher-container {
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+}
+
+
+.teacher-card {
+
+    background: white;
+    width: 260px;
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+
+}
+
+
+.teacher-card h3 {
+
+    color: #006B45;
+    margin-bottom: 15px;
+
+}
+.reviews {
+
+    padding: 70px 8%;
+    text-align: center;
+
+}
+
+
+.review-container {
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+}
+
+
+.review-card {
+
+    background: white;
+
+    width: 280px;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+
+}
+
+
+.review-card p {
+
+    font-style: italic;
+    line-height: 1.6;
+
+}
+
+
+.review-card h3 {
+
+    color: #006B45;
+    margin-top: 15px;
+
+}
+.footer {
+
+    background: #006B45;
+    color: white;
+    padding: 50px 8% 20px;
+
+}
+
+
+.footer-container {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+
+.footer h3 {
+
+    margin-bottom: 15px;
+
+}
+
+
+.footer p {
+
+    line-height: 1.7;
+
+}
+
+
+.copyright {
+
+    text-align: center;
+    margin-top: 30px;
+
+}
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+
+
+    nav {
+
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+
+    nav ul {
+
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+
+    .logo {
+
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+
+    .hero h1 {
+
+        font-size: 32px;
+
+    }
+
+
+    .hero p {
+
+        font-size: 18px;
+
+    }
+
+
+    .course-card,
+    .teacher-card,
+    .review-card {
+
+        width: 90%;
+
+    }
+
+
+    .footer-container {
+
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+
+}
+.course-card,
+.teacher-card,
+.review-card {
+
+    border: 2px solid #D4AF37;
+    transition: 0.3s ease;
+
+}
+
+
+.course-card:hover,
+.teacher-card:hover,
+.review-card:hover {
+
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+
+}
+.form-link {
+    text-align: center;
+    padding: 30px;
+}
+
+
+.admission-btn {
+
+    display: inline-block;
+    background: #D4AF37;
+    color: white;
+
+    padding: 15px 35px;
+
+    border-radius: 30px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+
+.admission-btn:hover {
+
+    background: #006B45;
+
+}
